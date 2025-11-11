@@ -4,4 +4,4 @@ session_start();
 
 unset($_SESSION['user']);
 
-header("Location: ../index.php");
+header("Location: /Grasssau-Web-site%202.0/index.php");

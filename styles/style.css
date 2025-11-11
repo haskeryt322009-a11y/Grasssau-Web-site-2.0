@@ -7,7 +7,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
 body {
@@ -573,3 +572,85 @@ left: -19px;
 
   pointer-events: none; /* Отключаем события для SVG */
 } 
+
+#verx2 {
+  background-color: white;
+}
+
+#imglog {
+  display: flex;
+  margin-left: 0px;
+  object-fit: contain;
+  width: 340px;
+}
+
+/* === МОДАЛЬНОЕ ОКНО === */
+#box-login {
+  position: fixed;       /* не двигается при скролле */
+  top: 50%;              /* 50% от верха экрана */
+  left: 50%;             /* 50% от левого края */
+  transform: translate(-50%, -50%); /* центрирует элемент */
+  
+  width: 90%;
+  max-width: 800px;
+  min-height: 300px;
+  padding: 40px;
+  
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.textone {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+/* === КОНТЕЙНЕР ДЛЯ КНОПОК === */
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  margin-top: auto;
+}
+
+/* === КНОПКА С АНИМАЦИЕЙ === */
+.button-exit {
+  display: flex;
+  justify-content: end;
+  margin-top: auto;
+  margin-left: auto;
+  align-items: end;
+  width: fit-content;
+  /* ИСПРАВЛЕНО: убран лишний пробел перед :hover */
+  padding: 10px 20px;
+  background-color: #0073ac;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer; /* курсор-указатель */
+  text-decoration: none;
+  transition: all 0.3s ease; /* анимация для ВСЕХ свойств */
+}
+
+/* ПРАВИЛЬНЫЙ HOVER - БЕЗ ПРОБЕЛА! */
+.button-exit:hover {
+  background-color: #005f8a;
+}
+
+
