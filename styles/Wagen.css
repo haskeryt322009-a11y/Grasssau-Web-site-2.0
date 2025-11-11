@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Растягиваем на всю высоту */
+}
+
+main {
+  margin: 0;
+  padding: 0;
+  flex-grow: 1;
+}
+
+header {
+    color: white;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+  top: 0;
+  background-color: rgb(255, 255, 255);
+
+}
+
+#verx {
+    background-color: black;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 7px;
+}
+
+.header-content {
+  gap: 10px;
+    display: flex; 
+    align-items: center;
+    padding: 10px; 
+    flex-wrap: wrap;
+      justify-content: center;  
+}
+
+#search {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+padding-left: 6px;
+min-width: 150px;
+  border-radius: 3px;
+  width: 27%;
+}
+
+#logo {
+    display: flex;
+
+    object-fit: contain
+}
+
+#nummer {
+  color: black;
+  margin-left: 50px;
+  font-size: normal;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#icontel {
+margin-left: 10px;
+}
+
+.rasp {
+color: black;
+margin-left: 21px;
+}
+
+#uhren {
+  margin-left: 10px;
+  margin-top: -70px;
+
+}
+
+
+#verx {
+    background-color: black;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 7px;
+}
+
+.header-content {
+  gap: 10px;
+    display: flex; 
+    align-items: center;
+    padding: 10px; 
+    flex-wrap: wrap;
+
+}
+
+
+#logo {
+    display: flex;
+
+    object-fit: contain
+}
+
+#nummer {
+  position: relative;
+
+  color: black;
+  font-size: normal;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#icontel {
+  position: absolute;
+}
+
+#nummertel {
+  margin-right: 35px;
+}
+
+.rasp {
+color: black;
+margin-left: 21px;
+}
+
+#uhren {
+ position: absolute;
+  margin-left: 0px;
+  margin-top: 4px;
+
+}
+
+#raspisanie {
+  position: relative ;
+}
+
+#text1{
+  font-weight: bold;
+  color: black;
+  margin-left: 4px;
+  text-decoration: none;
+}
+#cart1 {
+
+  cursor: pointer;
+}
+
+#wagen {
+display: flex;
+flex-direction: row;
+align-items: center;
+text-decoration: none;
+}
+
+
+
+#niz {
+  width: 100%;
+  height: 50px;
+  background-color: #00679b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0; /* ✅ убрали отступ */
+}
+
+#nizniz {
+  color: white;
+  font-style: normal;
+  font-size: 16px;
+}
+
+main {
+  background-color: #f4f4f4;
+}
+
+.cart-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 70%;
+  margin: 30px auto;
+  padding: 0 15px;
+  background-color: #f4f4f4;
+}
+
+.cart-items {
+  flex: 3;
+  background: white;
+  border-radius: 8px;
+  padding: 15px;
+   border-bottom: 1px solid #ddd;
+}
+
+.cart-item {
+  display: flex;
+  gap: 15px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+.cart-item img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.item-info {
+  flex: 1;
+}
+
+.item-info h3 {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.item-info p {
+  font-size: 14px;
+  color: #555;
+}
+
+.item-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.price {
+  font-weight: bold;
+  color: #e60023;
+}
+
+
+
+
+
+
+.cart-summary {
+  flex: 1;
+  background: white;
+  border-radius: 8px;
+  padding: 15px;
+  height: fit-content;
+}
+
+.cart-summary h2 {
+  margin-bottom: 15px;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.checkout-btn {
+  width: 100%;
+  background: #0073ac;
+  color: white;
+  padding: 12px;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.checkout-btn:hover {
+  background: #005f8a;
+   transition: border-color 0.2s, background-color 0.2s;
+}
+
+.safe-info {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.safe-info h3 {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.payments {
+  display: flex;
+  gap: 8px;
+}
+
+.payments img {
+  width: 40px;
+  height: auto;
+}
+
+.custom-checkbox {
+
+  width: 20px;
+
+  border: 2px solid #555;
+  border-radius: 4px;
+
+  cursor: pointer;
+
+  transition: border-color 0.2s, background-color 0.2s;
+}
+

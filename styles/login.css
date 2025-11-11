@@ -1,0 +1,148 @@
+
+
+    #box-login {
+    position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 2px solid black;
+        width: 350px;
+        height:450px;
+
+
+
+    }
+
+    /* Общие настройки */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Центрируем форму */
+#box-login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  padding: 30px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0073ac;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #0073ac;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #005f8a;
+}
+
+.forgot-password {
+  display: block;
+  text-align: right;
+  margin-top: -10px;
+  margin-bottom: 15px;
+  font-size: 0.9em;
+  color: #0073ac;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.register-link {
+  text-align: center;
+  font-size: 0.9em;
+  margin-bottom: 20px;
+}
+
+.register-link a {
+  color: #0073ac;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+    
+
+#verx {
+
+    background-color: white;
+
+}
+
+img {
+    display: flex;
+    margin-left: 0px;
+    object-fit: contain;
+    width: 340px    ;
+
+}
+
+#button {
+position: absolute;
+top: 12.2%;
+left: 0.3%;
+width: 200px;
+  padding: 10px;
+  background-color: #0073ac;
+border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#button:hover {
+      background-color: #005f8a;
+        transition: background-color 0.3s ease;
+}
+
+.error-message {
+    background-color: #ff4444;  /* ✅ БЕЗ кавычек! */
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}

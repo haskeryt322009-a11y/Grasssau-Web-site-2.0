@@ -1,0 +1,463 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+}
+
+nav {
+    background-color: #0073ac;
+}
+
+header {
+    color: white;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+  top: 0;
+  background-color: rgb(255, 255, 255);
+
+}
+
+#verx {
+    background-color: black;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 7px;
+}
+
+.header-content {
+  gap: 10px;
+    display: flex; 
+    align-items: center;
+    padding: 10px; 
+    flex-wrap: wrap;
+      justify-content: center;  
+
+}
+
+
+#logo {
+    display: flex;
+
+    object-fit: contain
+}
+
+#nummer {
+  color: black;
+  margin-left: 50px;
+  font-size: normal;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#icontel {
+margin-left: 10px;
+}
+
+.rasp {
+color: black;
+margin-left: 21px;
+}
+
+#uhren {
+  margin-left: 10px;
+  margin-top: -70px;
+
+}
+
+
+#verx {
+    background-color: black;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 7px;
+}
+
+.header-content {
+  gap: 10px;
+    display: flex; 
+    align-items: center;
+    padding: 10px; 
+    flex-wrap: wrap;
+      justify-content: center;  
+
+}
+
+#search {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+padding-left: 6px;
+min-width: 150px;
+  border-radius: 3px;
+  width: 27%;
+}
+#logo {
+    display: flex;
+
+    object-fit: contain
+}
+
+#nummer {
+  position: relative;
+
+  color: black;
+  font-size: normal;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#icontel {
+  position: absolute;
+
+}
+
+#nummertel {
+  margin-right: 35px;
+}
+
+.rasp {
+color: black;
+margin-left: 21px;
+}
+
+#uhren {
+  position: absolute;
+  margin-left: 0px;
+  margin-top: 4px;
+
+}
+
+#raspisanie {
+  position: relative ;
+}
+
+#text1{
+  font-weight: bold;
+  color: black;
+  margin-left: 4px;
+  cursor: pointer;
+  pos
+}
+
+
+
+
+
+#wagen {
+display: flex;
+flex-direction: row;
+align-items: center;
+text-decoration: none;
+}
+
+.horizontal-list {
+  list-style: none;
+  text-align: center; /* Центрируем содержимое */
+}
+
+.horizontal-list li {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px;
+  background-color:#0073ac;
+
+}
+
+.horizontal-list li:hover {
+  background-color: #00679b;
+   transition: background-color 0.3s ease, color 0.3s ease;
+}.vibor {
+  font-weight: bold;
+  color: white;
+  word-spacing: 10      px;
+  text-decoration: none !important;
+}
+
+.horizontal-list {
+  list-style: none;
+  text-align: center; /* Центрируем содержимое */
+}
+
+.horizontal-list li {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px;
+  background-color:#0073ac;
+
+}
+
+.horizontal-list li:hover {
+  background-color: #00679b;
+   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#instrumentu {
+    height: 100px;
+    margin-left: 30px;
+}
+
+.image-box {
+    position: relative;
+    width: 100%;
+    max-width: 1050px;
+    height: auto;
+}
+
+.picture {
+    width: 100%;
+    max-width: 1050px;
+    height: auto;
+    display: block;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1);
+}
+
+.second {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    margin-left: 30px;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.overlay-text1 {
+    position: absolute;
+    top: 73%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+#footer-box {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border-bottom: 3px solid #00679b;
+    background-color: #f1f1f1;
+}
+
+#niz {
+    width: 100%;
+    height: 50px;
+    background-color: #00679b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nizniz {
+    color: white;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.footer-lists {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    padding-top: 20px;
+}
+
+.column {
+    list-style: none;
+    padding: 10px;
+}
+
+.column li {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+    margin-top: 12px;
+}
+
+.footer-lists p {
+    font-weight: bold;
+}
+
+.overlay-blue {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 123, 255, 0.2);
+    border-radius: 10px;
+}
+
+#all {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#img-produkt {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 4px;
+    margin-right: 30px;
+    margin-left: -80px;
+}
+
+#box-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+}
+
+#prise {
+    margin-top: 15px;
+    color: #0073ac;
+    font-size: 24px;
+}
+
+#Kaution {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: gray;
+    font-size: 18px;
+}
+
+#box-choice {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+#box-choice label {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#waren {
+    margin-top: 50px;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    border: none;
+    background-color: #0073ac;
+    border-radius: 4px;
+    height: 50px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+
+#waren:hover {
+  background-color: #00679b;
+  transition: 0.2s;
+}
+
+#bottom-side {
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 30px;
+    line-height: 1.6;
+    text-align: left;
+}
+#bottom-side h1 {
+
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+
+#bottom-side h2 {
+
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#TechnischeDaten {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.product-specifications li strong {
+    color: #0073ac;
+}
+
+.product-specifications li {
+    list-style: none;
+    color: grey;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.rental-period {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid rgb(107, 107, 107);
+    width: 100%;
+    max-width: 400px;
+    font-size: 16px;
+}
+
+#Produkt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    padding: 20px;
+    width: 100%;
+    max-width: 1000px;
+}
+
+#product-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
