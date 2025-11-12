@@ -7,7 +7,7 @@
         transform: translate(-50%, -50%);
         border: 2px solid black;
         width: 350px;
-        height:450px;
+        height:550px;
 
 
 
@@ -33,6 +33,7 @@ body, html {
   border: 1px solid #ccc;
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+
 }
 
 
@@ -136,3 +137,13 @@ border: none;
         transition: background-color 0.3s ease;
 }
 
+.errormessage {
+    background-color: #ff4444;  /* ✅ БЕЗ кавычек! */
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}

@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         
     } else {
         // === ОШИБКА! ===
-        $error = "Неверный логин или пароль";
+        $error = "Falsche Anmeldedaten oder falsches Passwort";
     }
 }
 ?>
@@ -67,7 +67,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <!-- ПОКАЗ ОШИБКИ - ЗДЕСЬ! -->
 
             <p class="register-link">
-              Noch kein Konto? <a href="register.html">Registrieren</a>
+              Noch kein Konto? <a href="register.php">Registrieren</a>
             </p>
 
             <label for="login">Login</label>
